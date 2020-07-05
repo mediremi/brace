@@ -1,8 +1,11 @@
 {
-  "name": "@mediremi/brace",
+  "name": "@medimatrix/brace",
   "version": "0.12.0",
-  "description": "browserify compatible version of the ace editor.",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "update": "(cd build && node ./update && node ./update-ts)",
     "test": "browserify test/*.js > test/bundle.js --debug && opener test/index.html"
@@ -19,10 +22,10 @@
     "tape": "~4.0.0",
     "uglify-js": "~2.2.5"
   },
-  "author": {
-    "name": "Thorsten Lorenz",
-    "email": "thlorenz@gmx.de",
-    "url": "http://thlorenz.com"
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mediremi/brace/issues"
   },
-  "license": "MIT"
+  "homepage": "https://github.com/mediremi/brace#readme"
 }
