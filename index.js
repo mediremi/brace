@@ -7778,7 +7778,7 @@ var Document = function(textOrLines) {
         if (this.getLength() <= 1)
             this.$detectNewLine(text);
 
-        return this.insertMergedLines(position, this.$split(text), causse);
+        return this.insertMergedLines(position, this.$split(text), cause);
     };
     this.insertInLine = function(position, text) {
         var start = this.clippedPos(position.row, position.column);
